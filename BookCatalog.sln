@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookCatalog", "BookCatalog\BookCatalog.csproj", "{10F009C7-F8D9-499A-91EE-6EC97BA36845}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookCatalog.Domain", "BookCatalog.Domain\BookCatalog.Domain.csproj", "{AB4E2CAE-E0A1-433C-AEA3-A9C85FD2017C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookCatalog.Services", "BookCatalog.Services\BookCatalog.Services.csproj", "{6DADBF75-89B7-4C45-926A-5A51CF52CDE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookCatalog.Repositories.Tests", "BookCatalog.Repositories.Tests\BookCatalog.Repositories.Tests.csproj", "{AB3E95C7-5871-4C5F-B07C-1137874F516B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookCatalog.Repositories", "BookCatalog.Repositories\BookCatalog.Repositories.csproj", "{1A920412-48E2-4A1C-A0F2-1006851A1AF2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookCatalog.Services.Tests", "BookCatalog.Services.Tests\BookCatalog.Services.Tests.csproj", "{52CF5D4F-C09B-4AB2-8AB7-476CCEEBF26E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D25D4546-D93F-43A9-974E-7A21D68A5588}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10F009C7-F8D9-499A-91EE-6EC97BA36845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F009C7-F8D9-499A-91EE-6EC97BA36845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F009C7-F8D9-499A-91EE-6EC97BA36845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F009C7-F8D9-499A-91EE-6EC97BA36845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB4E2CAE-E0A1-433C-AEA3-A9C85FD2017C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB4E2CAE-E0A1-433C-AEA3-A9C85FD2017C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB4E2CAE-E0A1-433C-AEA3-A9C85FD2017C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB4E2CAE-E0A1-433C-AEA3-A9C85FD2017C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DADBF75-89B7-4C45-926A-5A51CF52CDE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DADBF75-89B7-4C45-926A-5A51CF52CDE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DADBF75-89B7-4C45-926A-5A51CF52CDE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DADBF75-89B7-4C45-926A-5A51CF52CDE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB3E95C7-5871-4C5F-B07C-1137874F516B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB3E95C7-5871-4C5F-B07C-1137874F516B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB3E95C7-5871-4C5F-B07C-1137874F516B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB3E95C7-5871-4C5F-B07C-1137874F516B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A920412-48E2-4A1C-A0F2-1006851A1AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A920412-48E2-4A1C-A0F2-1006851A1AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A920412-48E2-4A1C-A0F2-1006851A1AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A920412-48E2-4A1C-A0F2-1006851A1AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52CF5D4F-C09B-4AB2-8AB7-476CCEEBF26E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52CF5D4F-C09B-4AB2-8AB7-476CCEEBF26E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52CF5D4F-C09B-4AB2-8AB7-476CCEEBF26E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52CF5D4F-C09B-4AB2-8AB7-476CCEEBF26E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {397B9095-1A79-4464-964E-CE19E0665D8E}
+	EndGlobalSection
+EndGlobal
