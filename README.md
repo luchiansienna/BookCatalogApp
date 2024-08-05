@@ -13,7 +13,7 @@ The database used is Microsoft SQL.
 1. **Install .Net Framework Core & SQL Express database Server instance** on your machine
 Check if appsettings.json has the right connection string and adjust accordingly
 
-2. Run '**update-database**' command into 'Package Manager Console' with **BookCatalog.Repositories** project selected to install the database schema ( apply migration ) into your installed local SQL express database
+2. Open the solution in **Visual Studio** and Run '**update-database**' command into 'Package Manager Console' with **BookCatalog.Repositories** project selected to install the database schema ( apply migration ) into your installed local SQL express database
 
 3. Run your app locally on IIS Express or any other .NET web server
 
@@ -84,10 +84,9 @@ Books with existing authors can be added as well, but the id of the author must 
 
 If you hit GET on /book endpoint you will be able to get the ids of the authors or the publisher for referencing them in future POSTs or PUTs.
 
-Then you can go ahead and copy the fetched JSON with the corresponding added book , that also contains the ids registered in the database.
+Then you can go ahead and copy the fetched JSON that contains info about the just added book , that also contains the ids of the entities registered in the database.
 
 A PUT on the /book endpoint with the copied JSON with some additional changes will update the book and it list of authors. 
-
 
 Books can be deleted as well on the /book endpoint and all books with the corresponding links will be removed, but the related authors and publisher will remain in place
 
