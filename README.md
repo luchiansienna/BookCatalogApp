@@ -86,8 +86,7 @@ If you hit GET on /book endpoint you will be able to get the ids of the authors 
 
 Then you can go ahead and copy the fetched JSON with the corresponding added book , that also contains the ids registered in the database.
 
-You can then go ahead and hit a PUT on the /book endpoint with the copied JSON with some additional changes. 
-That will update the book and its list of authors.
+A PUT on the /book endpoint with the copied JSON with some additional changes will update the book and it list of authors. 
 
 
 Books can be deleted as well on the /book endpoint and all books with the corresponding links will be removed, but the related authors and publisher will remain in place
