@@ -15,7 +15,7 @@ Check if appsettings.json has the right connection string and adjust accordingly
 
 2. Open the solution in **Visual Studio** and Run '**update-database**' command into 'Package Manager Console' with **BookCatalog.Repositories** project selected to install the database schema ( apply migration ) into your installed local SQL express database
 
-3. Optional: To browse through the database you may want to install **Sql Server Management Studio**
+3. Optional: To browse directly through the database you may want to install **Sql Server Management Studio**
 
 4. Run your app locally on IIS Express or any other .NET web server
 
