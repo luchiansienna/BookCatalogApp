@@ -1,4 +1,4 @@
-﻿# Book Catalog app
+# Book Catalog app
 
 This is Web Api application that manages a Book Catalog .
 The exercise description can be found in the Excercise.md file in the Web app path location.
@@ -106,7 +106,7 @@ The MappingProfiles in BookCatalog.Services takes care of the mappings setup bet
 
 ## Entity Framework Core as ORM
 
-With the EF Core and LINQ the database is being accessed.
+The database is being accessed using EF Core
 Code First approach is in place with migrations located in **BookCatalog.Repositories**.
 
 ## Projects
