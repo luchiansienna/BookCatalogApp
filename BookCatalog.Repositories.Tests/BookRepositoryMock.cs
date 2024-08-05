@@ -4,7 +4,7 @@ using Moq;
 
 namespace BookCatalog.Repositories.Tests
 {
-    public class IBookRepositoryMock
+    public class BookRepositoryMock
     {
         public static IBookRepository GetMock()
         {

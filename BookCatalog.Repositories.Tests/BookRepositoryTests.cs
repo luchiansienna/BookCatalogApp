@@ -10,7 +10,7 @@ namespace BookCatalog.Repositories.Tests
         [SetUp]
         public void SetUp()
         {
-            bookRepository = IBookRepositoryMock.GetMock();
+            bookRepository = BookRepositoryMock.GetMock();
         }
 
         [Test]

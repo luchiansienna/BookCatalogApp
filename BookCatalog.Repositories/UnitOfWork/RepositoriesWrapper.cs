@@ -1,5 +1,4 @@
-﻿using BookCatalog.Domain;
-using BookCatalog.Repositories;
+﻿using BookCatalog.Repositories;
 using BookCatalog.Repositories.Contracts;
 
 namespace BookCatalog.Services.UnitOfWork
