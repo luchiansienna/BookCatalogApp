@@ -95,7 +95,7 @@ Books can be deleted as well on the /book endpoint and all books with the corres
 
 When removing authors on the /author endpoint, a check if the author has existing books.
 The author cannot be deleted if there are books that relate to the author.
-To delete the author, please remove all its corresponding books.
+To delete the author, please remove all its corresponding books or remove the author from the books manually by updating the books.
 
 ## Validations are in place for API requests
 
