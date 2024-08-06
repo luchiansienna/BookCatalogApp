@@ -37,7 +37,6 @@ namespace BookCatalog.Repositories.Contracts
         public virtual DbModel Remove(DbModel model)
         {
             var deletedModel = _dbSet.Remove(model).Entity;
-            _dbSet.Remove(model);
             _context.SaveChanges();
             return deletedModel;
         }
