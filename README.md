@@ -1,13 +1,13 @@
 # Book Catalog app
 
 This is Web Api application that manages a Book Catalog .
-The exercise description can be found in the Excercise.md file in the Web app path location.
+The test description is located <a id='ssFeatures' href='https://github.com/luchiansienna/BookCatalogApp/blob/main/BookCatalog/Exercise.md'>here</a>
 
 This app is developed using C# .NET Core framework.
 I have used CODE FIRST approach for the database with Entity Framework.
 The database used is Microsoft SQL.
 
-The test description is located <a id='ssFeatures' href='https://github.com/luchiansienna/BookCatalogApp/blob/main/BookCatalog/Exercise.md'>here</a>
+
 
 ## Steps to set the app on your local machine
 
