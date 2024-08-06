@@ -7,6 +7,7 @@ This app is developed using C# .NET Core framework.
 I have used CODE FIRST approach for the database with Entity Framework.
 The database used is Microsoft SQL.
 
+The requirements: https://github.com/luchiansienna/BookCatalogApp/blob/main/BookCatalog/Exercise.md
 
 ## Steps to set the app on your local machine
 
