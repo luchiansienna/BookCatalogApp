@@ -17,7 +17,6 @@ namespace BookCatalog.Controllers
         {
             _logger = logger;
             _service = service;
-
         }
 
         /// <summary>

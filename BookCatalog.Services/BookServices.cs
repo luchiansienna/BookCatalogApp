@@ -23,7 +23,7 @@ namespace BookCatalog.Services
             var book = _repositoriesWrapper.Books.Get(id);
             if (book == null)
             {
-                throw new DbEntityNotFoundException($"Book with id {id} not found int the database.");
+                throw new DbEntityNotFoundException($"Book with id {id} not found in the database.");
             }
 
             return _mapper.Map<BookDTO>(book);

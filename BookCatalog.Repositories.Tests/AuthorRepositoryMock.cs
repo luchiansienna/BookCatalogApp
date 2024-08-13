@@ -1,6 +1,5 @@
 ﻿using BookCatalog.Domain;
 using BookCatalog.Repositories.Contracts;
-using Microsoft.EntityFrameworkCore;
 using Moq;
 
 namespace BookCatalog.Repositories.Tests

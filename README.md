@@ -2,6 +2,7 @@
 
 This is Web Api application that manages a Book Catalog .
 The test description is located <a id='ssFeatures' href='https://github.com/luchiansienna/BookCatalogApp/blob/main/BookCatalog/Exercise.md'>here</a>
+The POSTMAN file for the API calls is located <a href='https://github.com/luchiansienna/BookCatalogApp/blob/main/BookCatalog/Dataspartan.postman_collection.json'>here</a>
 
 This app is developed using C# .NET Core framework.
 I have used CODE FIRST approach for the database with Entity Framework.
