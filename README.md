@@ -12,14 +12,15 @@ The database used is Microsoft SQL.
 
 ## Steps to set the app on your local machine
 
-1. **Install .Net Framework Core & SQL Express database Server instance** on your machine
-Check if appsettings.json has the right connection string and adjust accordingly
+1. **Install .Net Framework Core & SQL Express database Server instance** on your machine.
+Check if **appsettings.json** file located in the **BookCatalog** project has the right database connection string and adjust accordingly. It should point to your newly created SQL Express instance.
+The connection string is named **BookCatalogContext** and has the default value : ""BookCatalogContext": "Server=(local)\\SQLEXPRESS;Database=BookCatalog;Trusted_Connection=true;MultipleActiveResultSets=true;TrustServerCertificate=True;"
 
-2. Open the solution in **Visual Studio** and Run '**update-database**' command into 'Package Manager Console' with **BookCatalog.Repositories** project selected to install the database schema ( apply migration ) into your installed local SQL express database
+3. Open the solution in **Visual Studio** and Run '**update-database**' command into 'Package Manager Console' with **BookCatalog.Repositories** project selected to install the database schema ( apply migration ) into your installed local SQL express database
 
-3. Optional: To browse directly through the database you may want to install **Sql Server Management Studio**
+4. Optional: To browse directly through the database you may want to install **Sql Server Management Studio**
 
-4. Run your app locally on IIS Express or any other .NET web server
+5. Run your app locally on IIS Express or any other .NET web server
 
 The Swagger start up page will help in calling the Book and Author RESTFul API.
 
